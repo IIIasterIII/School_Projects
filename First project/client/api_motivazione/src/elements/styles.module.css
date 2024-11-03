@@ -1,0 +1,81 @@
+.header {
+    background: -webkit-linear-gradient(45deg, #171c3e,#20264f,#171c3e);/* Chrome 10-25, Safari 5.1-6 */                 
+    background: linear-gradient(45deg, #171c3e,#20264f,#171c3e);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    z-index: 100;
+}
+
+.p {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: #9ec1ff;
+}
+
+.header p:hover {
+    color: #60f48f;
+}
+
+.footer {
+    position: relative;
+    background: -webkit-linear-gradient(45deg, #171c3e,#20264f,#171c3e);/* Chrome 10-25, Safari 5.1-6 */                 
+    background: linear-gradient(45deg, #171c3e,#20264f,#171c3e);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px -3px 55px 10px rgba(43, 56, 100, 0.41);
+    -moz-box-shadow: 0px -3px 55px 10px rgba(43, 56, 100, 0.41);
+    box-shadow: 0px 0px 35px 25px rgba(43, 56, 100, 0.41);
+    z-index: 100;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffff;
+    font-size: 24px;
+    background: -webkit-linear-gradient(89deg, #9ec1ff,#b2aaff);/* Chrome 10-25, Safari 5.1-6 */                         
+    background: linear-gradient(89deg, #9ec1ff,#b2aaff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                                                                     
+    padding: 15px 50px;
+    margin: 0 25px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.link > * {
+    margin: 0 10px;
+}
+
+.link:hover {
+    background: -webkit-linear-gradient(120deg, #60f48f,#77f4ec);                          
+    background: linear-gradient(120deg, #60f48f,#77f4ec); 
+    box-shadow: 0px 0px 50px 5px rgba(96, 244, 143, 0.41);   
+    background: -webkit-linear-gradient(120deg, #60f48f,#77f4ec);                          
+    background: linear-gradient(120deg, #60f48f,#77f4ec);     
+}
+
+.link:hover > .icon, .link:hover > .icon_center {
+    transform: translateY(-5px);
+}
+
+.logo {
+    font-size: 32px;
+    margin: 0 10px;
+}
+
+.icon {
+    font-size: 24px;
+    transition: transform 0.5s linear;
+}
+
+.icon_center {
+    font-size: 32px;
+    transition: transform 0.5s linear;
+}
